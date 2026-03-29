@@ -2,6 +2,8 @@
 
 An automated Threat Intelligence pipeline that monitors **Pi-hole** traffic, cross-references domains against **VirusTotal** and **AlienVault OTX**, automatically blocks malicious actors, and visualizes everything in **Grafana**.
 
+![Grafana Dashboard](grafana_dashboard_image.PNG)
+
 ---
 
 ## 🚀 Overview
@@ -26,6 +28,9 @@ This project creates a closed-loop security system for your home network:
 ## 📦 Installation
 
 ### 1. n8n Workflow
+
+![n8n Workflow Canvas](n8n_workflow_image.PNG)
+
 1.  Open your n8n instance and create a **New Workflow**.
 2.  Open the `n8n_workflow.json` file from this repo.
 3.  Copy the content and paste it directly onto the n8n canvas.
