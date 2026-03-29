@@ -46,7 +46,7 @@ Create a bucket (e.g., `DNS_Security`) in your InfluxDB UI. Ensure your API toke
 
 ## ⚙️ Configuration Variables
 
-To get the workflow and dashboard running, you must replace the following placeholders within the JSON files with your specific environment details:
+To get the workflow and dashboard running, you must replace the following placeholders within the JSON files with your specific environment details (dont forget to remove the "[]":
 
 | Placeholder | Description | Where to find it |
 | :--- | :--- | :--- |
